@@ -2,7 +2,7 @@
 
 namespace ElectricVehiclesBackend.Domain.Entities
 {
-    public class VehicleType
+    public class VehicleType : BaseEntity
     {
         public string? Description { get; set; }
 

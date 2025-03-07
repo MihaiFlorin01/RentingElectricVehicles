@@ -2,7 +2,7 @@
 
 namespace ElectricVehiclesBackend.Domain.Entities
 {
-    public class Vehicle
+    public class Vehicle : BaseEntity
     {
         public DateTime RegisterDate { get; set; }
 

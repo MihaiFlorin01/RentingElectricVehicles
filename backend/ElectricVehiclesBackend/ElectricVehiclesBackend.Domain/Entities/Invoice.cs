@@ -2,7 +2,7 @@
 
 namespace ElectricVehiclesBackend.Domain.Entities
 {
-    public class Invoice
+    public class Invoice : BaseEntity
     {
         public decimal GrossAmount { get; set; }
 
