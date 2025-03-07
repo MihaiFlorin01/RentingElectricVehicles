@@ -7,7 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ElectricVehiclesBackendDbContext>(opt =>
 {
-    opt.UseSqlServer(builder.Configuration.GetConnectionString(""));
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConnectionString"));
 });
 
 var app = builder.Build();
