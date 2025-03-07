@@ -1,0 +1,6 @@
+@ElectricVehiclesBackend.Presentation_HostAddress = http://localhost:5265
+
+GET {{ElectricVehiclesBackend.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

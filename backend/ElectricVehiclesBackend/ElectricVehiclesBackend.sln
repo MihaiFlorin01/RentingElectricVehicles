@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehiclesBackend.Presentation", "ElectricVehiclesBackend.Presentation\ElectricVehiclesBackend.Presentation.csproj", "{8601FE10-CCDE-4CD0-8CAA-95A0A176BB05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehiclesBackend.Application", "ElectricVehiclesBackend.Application\ElectricVehiclesBackend.Application.csproj", "{148448F8-8C54-48F2-AAC8-F9D9844098DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehiclesBackend.Infrastructure", "ElectricVehiclesBackend.Infrastructure\ElectricVehiclesBackend.Infrastructure.csproj", "{D6172BD0-E488-46BC-8B43-9C18649C5C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehiclesBackend.Domain", "ElectricVehiclesBackend.Domain\ElectricVehiclesBackend.Domain.csproj", "{47C140C1-767A-467F-8826-442E3D0438D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehiclesBackend.Contracts", "ElectricVehiclesBackend.Contracts\ElectricVehiclesBackend.Contracts.csproj", "{51D90B42-5654-4BB0-A25F-02243AE452AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8601FE10-CCDE-4CD0-8CAA-95A0A176BB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8601FE10-CCDE-4CD0-8CAA-95A0A176BB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8601FE10-CCDE-4CD0-8CAA-95A0A176BB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8601FE10-CCDE-4CD0-8CAA-95A0A176BB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148448F8-8C54-48F2-AAC8-F9D9844098DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148448F8-8C54-48F2-AAC8-F9D9844098DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148448F8-8C54-48F2-AAC8-F9D9844098DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148448F8-8C54-48F2-AAC8-F9D9844098DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6172BD0-E488-46BC-8B43-9C18649C5C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6172BD0-E488-46BC-8B43-9C18649C5C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6172BD0-E488-46BC-8B43-9C18649C5C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6172BD0-E488-46BC-8B43-9C18649C5C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C140C1-767A-467F-8826-442E3D0438D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C140C1-767A-467F-8826-442E3D0438D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C140C1-767A-467F-8826-442E3D0438D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C140C1-767A-467F-8826-442E3D0438D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D90B42-5654-4BB0-A25F-02243AE452AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D90B42-5654-4BB0-A25F-02243AE452AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D90B42-5654-4BB0-A25F-02243AE452AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D90B42-5654-4BB0-A25F-02243AE452AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
